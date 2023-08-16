@@ -1,0 +1,317 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do RISC_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:21 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU
+# -- Compiling architecture desc of ALU
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/controller.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/controller.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity controller
+# -- Compiling architecture desc of controller
+# ** Warning: //Mac/Home/Desktop/Project4thMay/controller.vhd(281): (vcom-1246) Range 7 downto 8 is null.
+# ** Warning: //Mac/Home/Desktop/Project4thMay/controller.vhd(281): (vcom-1272) Length of expected is 0; length of actual is 2.
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Datapath.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Datapath.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity temp
+# -- Compiling architecture desc of temp
+# -- Compiling entity Datapath
+# -- Compiling architecture desc of Datapath
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Demux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Demux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity demux
+# -- Compiling architecture desc of demux
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Devices.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Devices.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux_2x1
+# -- Compiling architecture behaviour of mux_2x1
+# -- Compiling entity mux_4x1
+# -- Compiling architecture desc of mux_4x1
+# -- Compiling entity demux_1x2
+# -- Compiling architecture desc of demux_1x2
+# -- Compiling entity demux_1x4
+# -- Compiling architecture desc of demux_1x4
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Memory.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Memory.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem
+# -- Compiling architecture desc of mem
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Mux.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Mux.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity mux
+# -- Compiling architecture desc of mux
+# End time: 06:20:22 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/RegFile.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:22 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/RegFile.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity rf
+# -- Compiling architecture desc of rf
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Register.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Register.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg
+# -- Compiling architecture desc of reg
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/RISC.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/RISC.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity RISC
+# -- Compiling architecture arc of RISC
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/se7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/se7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity se7
+# -- Compiling architecture desc of se7
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/se10.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/se10.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity se10
+# -- Compiling architecture desc of se10
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Shift1.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Shift1.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LeftShift1
+# -- Compiling architecture desc of LeftShift1
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Shift7.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Shift7.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity LeftShift7
+# -- Compiling architecture desc of LeftShift7
+# End time: 06:20:23 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Add16.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:23 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Add16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Add16
+# -- Compiling architecture desc of Add16
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/andg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/andg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity andg
+# -- Compiling architecture anda of andg
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/Full_Adder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/Full_Adder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity Full_Adder
+# -- Compiling architecture OnebitFullAdd_arc of Full_Adder
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/halfadder.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/halfadder.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity halfadder
+# -- Compiling architecture halfadder_arc of halfadder
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/org.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/org.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity org
+# -- Compiling architecture ora of org
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/xorg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/xorg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity xorg
+# -- Compiling architecture xora of xorg
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vcom -93 -work work {//Mac/Home/Desktop/Project4thMay/notg.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 06:20:24 on May 06,2022
+# vcom -reportprogress 300 -93 -work work //Mac/Home/Desktop/Project4thMay/notg.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity notg
+# -- Compiling architecture nota of notg
+# End time: 06:20:24 on May 06,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.risc
+# vsim work.risc 
+# Start time: 06:20:29 on May 06,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.risc(arc)
+# Loading work.controller(desc)
+# Loading work.datapath(desc)
+# Loading work.mux(desc)
+# Loading work.alu(desc)
+# Loading work.add16(desc)
+# Loading work.full_adder(onebitfulladd_arc)
+# Loading work.halfadder(halfadder_arc)
+# Loading work.xorg(xora)
+# Loading work.notg(nota)
+# Loading work.andg(anda)
+# Loading work.org(ora)
+# Loading work.demux_1x4(desc)
+# Loading work.mux_4x1(desc)
+# Loading work.temp(desc)
+# Loading work.demux(desc)
+# Loading work.mux_2x1(behaviour)
+# Loading work.mem(desc)
+# Loading work.demux_1x2(desc)
+# Loading work.se7(desc)
+# Loading work.se10(desc)
+# Loading work.leftshift1(desc)
+# Loading work.leftshift7(desc)
+# Loading work.reg(desc)
+# Loading work.rf(desc)
+# ** Warning: (vsim-8684) No drivers exist on out port /risc/my_controller/ctrl(39 downto 37), and its initial value is not used.
+# Therefore, simulation behavior may occur that is not in compliance with
+# the VHDL standard as the initial values come from the base signal /risc/ctrl(39 downto 37).
+# ** Warning: (vsim-8683) Uninitialized out port /risc/my_controller/pc_in(15 downto 0) has no driver.
+# This port will contribute value (UUUUUUUUUUUUUUUU) to the signal network.
+add wave -position insertpoint sim:/risc/*
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: aviuday  Hostname: AVIUDAY651C  ProcessID: 4272
+#           Attempting to use alternate WLF file "./wlftiniki4".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftiniki4
+force -freeze sim:/risc/rst 1 0
+force -freeze sim:/risc/clk 0 0, 1 {250000000000 ps} -r {500 ms}
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 250 ms  Iteration: 2  Instance: /risc/my_datapath/dev16
+force -freeze sim:/risc/rst 0 0
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# End time: 06:24:17 on May 06,2022, Elapsed time: 0:03:48
+# Errors: 0, Warnings: 5

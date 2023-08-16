@@ -1,0 +1,1040 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d//Mac/Home/Desktop/Project4thMay/simulation/modelsim
+Eadd16
+Z1 w1651697102
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 14
+R0
+Z4 8//Mac/Home/Desktop/Project4thMay/Add16.vhd
+Z5 F//Mac/Home/Desktop/Project4thMay/Add16.vhd
+l0
+L4 1
+V<FnjaZ8?ELOMCJ_Fi5T1d0
+!s100 D==9;hOfl1O0Yi:FSUPX81
+Z6 OV;C;2020.1;71
+31
+Z7 !s110 1651798223
+!i10b 1
+Z8 !s108 1651798223.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Add16.vhd|
+Z10 !s107 //Mac/Home/Desktop/Project4thMay/Add16.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1 CvgOpt 0
+Adesc
+R2
+R3
+DEx4 work 5 add16 0 22 <FnjaZ8?ELOMCJ_Fi5T1d0
+!i122 14
+l20
+L11 47
+VK]N:[VH?PUSMgT4Z`0FaG1
+!s100 A8j99Og87ZK3EFbN<<JcY0
+R6
+31
+Z13 !s110 1651798224
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ealu
+Z14 w1651697197
+R2
+R3
+!i122 0
+R0
+Z15 8//Mac/Home/Desktop/Project4thMay/ALU.vhd
+Z16 F//Mac/Home/Desktop/Project4thMay/ALU.vhd
+l0
+L4 1
+V9CBJLGebcQ7QnX2;YAjF11
+!s100 hmD3SM[8A1_`EhWB;46QQ0
+R6
+31
+!s110 1651798221
+!i10b 1
+Z17 !s108 1651798221.000000
+Z18 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/ALU.vhd|
+Z19 !s107 //Mac/Home/Desktop/Project4thMay/ALU.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 3 alu 0 22 9CBJLGebcQ7QnX2;YAjF11
+!i122 0
+l25
+L13 46
+VKEm?Iko0T^0?YEg9JELTm3
+!s100 @34mX^6b<;h7Z4^Z?N`Pe2
+R6
+31
+Z20 !s110 1651798222
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eandg
+Z21 w1643562160
+R2
+R3
+!i122 15
+R0
+Z22 8//Mac/Home/Desktop/Project4thMay/andg.vhd
+Z23 F//Mac/Home/Desktop/Project4thMay/andg.vhd
+l0
+L4 1
+VXD:m]ARj1?oZXzdhX8@640
+!s100 D<_^zB7@0blfn2]@f5_eN0
+R6
+31
+R13
+!i10b 1
+Z24 !s108 1651798224.000000
+Z25 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/andg.vhd|
+Z26 !s107 //Mac/Home/Desktop/Project4thMay/andg.vhd|
+!i113 1
+R11
+R12
+Aanda
+R2
+R3
+DEx4 work 4 andg 0 22 XD:m]ARj1?oZXzdhX8@640
+!i122 15
+l9
+L8 4
+VX6@<:3n0R=7fRFzeiZOOW3
+!s100 7[]N_ESKAi[ngS^fYc82B2
+R6
+31
+R13
+!i10b 1
+R24
+R25
+R26
+!i113 1
+R11
+R12
+Econtroller
+Z27 w1651798160
+R2
+R3
+!i122 1
+R0
+Z28 8//Mac/Home/Desktop/Project4thMay/controller.vhd
+Z29 F//Mac/Home/Desktop/Project4thMay/controller.vhd
+l0
+L4 1
+VgO4cbbPUQWzWa[OX[UhmD3
+!s100 iFU7:?H35:2hBjNfbnB8F2
+R6
+31
+R20
+!i10b 1
+Z30 !s108 1651798222.000000
+Z31 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/controller.vhd|
+Z32 !s107 //Mac/Home/Desktop/Project4thMay/controller.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 10 controller 0 22 gO4cbbPUQWzWa[OX[UhmD3
+!i122 1
+l27
+L20 564
+VA>1EVS_NJ<e5kERmO^MUR0
+!s100 nK0zF2`PG:ohLjZQc[0if1
+R6
+31
+R20
+!i10b 1
+R30
+R31
+R32
+!i113 1
+R11
+R12
+Edatapath
+Z33 w1651794013
+R2
+R3
+!i122 2
+R0
+Z34 8//Mac/Home/Desktop/Project4thMay/Datapath.vhd
+Z35 F//Mac/Home/Desktop/Project4thMay/Datapath.vhd
+l0
+L26 1
+VHA<S?Jo]Z3U046mn]Rf`>1
+!s100 <Em7FSlL5O@@2T9g;bGl43
+R6
+31
+R20
+!i10b 1
+R30
+Z36 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Datapath.vhd|
+Z37 !s107 //Mac/Home/Desktop/Project4thMay/Datapath.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 8 datapath 0 22 HA<S?Jo]Z3U046mn]Rf`>1
+!i122 2
+l173
+L45 276
+V7jBH;nZQEMPDbD<3^=lM61
+!s100 bCo?fYS;?`?3aXBG?960d3
+R6
+31
+R20
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R11
+R12
+Edemux
+Z38 w1651791313
+R2
+R3
+!i122 3
+R0
+Z39 8//Mac/Home/Desktop/Project4thMay/Demux.vhd
+Z40 F//Mac/Home/Desktop/Project4thMay/Demux.vhd
+l0
+L4 1
+VH;U5CI9Djd?`;9kRzDTQU3
+!s100 L7F9K==jL2S6?A2k<iUn33
+R6
+31
+R20
+!i10b 1
+R30
+Z41 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Demux.vhd|
+Z42 !s107 //Mac/Home/Desktop/Project4thMay/Demux.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 5 demux 0 22 H;U5CI9Djd?`;9kRzDTQU3
+!i122 3
+l18
+Z43 L17 24
+V>8[k8Mmd[9>Ah9hHY?1Gh0
+!s100 Ihck7jlWHgm[L<jCjAfd72
+R6
+31
+R20
+!i10b 1
+R30
+R41
+R42
+!i113 1
+R11
+R12
+Edemux_1x2
+Z44 w1651791297
+R2
+R3
+!i122 4
+R0
+Z45 8//Mac/Home/Desktop/Project4thMay/Devices.vhd
+Z46 F//Mac/Home/Desktop/Project4thMay/Devices.vhd
+l0
+L53 1
+V[<YNG>B[5i<ISWjJhT8W]1
+!s100 _Dg8Fzj:X@Z=K<QdOFfGN2
+R6
+31
+R20
+!i10b 1
+R30
+Z47 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Devices.vhd|
+Z48 !s107 //Mac/Home/Desktop/Project4thMay/Devices.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 9 demux_1x2 0 22 [<YNG>B[5i<ISWjJhT8W]1
+!i122 4
+l61
+L60 12
+Vo<zFm^hWJG3bMM:2LnaRZ2
+!s100 Onme2m[Oih1QS4`N5IOAD1
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Edemux_1x4
+R44
+R2
+R3
+!i122 4
+R0
+R45
+R46
+l0
+L76 1
+VZV[HXKobGXHo;Z=_1k2IV0
+!s100 46>`ooTPUZ>^SiNR0?`L<3
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 9 demux_1x4 0 22 ZV[HXKobGXHo;Z=_1k2IV0
+!i122 4
+l86
+L85 16
+V>FjhEBKhnfM>U?BbOF4C51
+!s100 aWRO>eO^_oN^5T1Q84IXE2
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Efull_adder
+Z49 w1651696869
+R2
+R3
+!i122 16
+R0
+Z50 8//Mac/Home/Desktop/Project4thMay/Full_Adder.vhd
+Z51 F//Mac/Home/Desktop/Project4thMay/Full_Adder.vhd
+l0
+L5 1
+VbjL7d>Xj?W8AG=6zo^5;A0
+!s100 M7CSAFg`OC=[jZFEkQQRI2
+R6
+31
+R13
+!i10b 1
+R24
+Z52 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Full_Adder.vhd|
+Z53 !s107 //Mac/Home/Desktop/Project4thMay/Full_Adder.vhd|
+!i113 1
+R11
+R12
+Aonebitfulladd_arc
+R2
+R3
+DEx4 work 10 full_adder 0 22 bjL7d>Xj?W8AG=6zo^5;A0
+!i122 16
+l23
+L10 24
+V;3Kz9Z9dOz8]g=Y54>RBh3
+!s100 5[22Hna]Jg^NecW9S9R<R3
+R6
+31
+R13
+!i10b 1
+R24
+R52
+R53
+!i113 1
+R11
+R12
+Ehalfadder
+Z54 w1643562686
+R2
+R3
+!i122 17
+R0
+Z55 8//Mac/Home/Desktop/Project4thMay/halfadder.vhd
+Z56 F//Mac/Home/Desktop/Project4thMay/halfadder.vhd
+l0
+L5 1
+VW:Kfj@DC?8@WUEZzoaUWd2
+!s100 C:OL7cYOgC_4:Q@Pdll102
+R6
+31
+R13
+!i10b 1
+R24
+Z57 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/halfadder.vhd|
+Z58 !s107 //Mac/Home/Desktop/Project4thMay/halfadder.vhd|
+!i113 1
+R11
+R12
+Ahalfadder_arc
+R2
+R3
+DEx4 work 9 halfadder 0 22 W:Kfj@DC?8@WUEZzoaUWd2
+!i122 17
+l19
+L9 19
+VBf?7Qg@mdazT><9Vdng4d2
+!s100 g;`HF]_EUW1[>P7Z=A]7d1
+R6
+31
+R13
+!i10b 1
+R24
+R57
+R58
+!i113 1
+R11
+R12
+Eleftshift1
+Z59 w1650209584
+R2
+R3
+!i122 12
+R0
+Z60 8//Mac/Home/Desktop/Project4thMay/Shift1.vhd
+Z61 F//Mac/Home/Desktop/Project4thMay/Shift1.vhd
+l0
+L4 1
+VQn8lK_fO`L?M7zaSIWKMM3
+!s100 N[>f<^h]TeB;zONg@A@Y^2
+R6
+31
+R7
+!i10b 1
+R8
+Z62 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Shift1.vhd|
+Z63 !s107 //Mac/Home/Desktop/Project4thMay/Shift1.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 10 leftshift1 0 22 Qn8lK_fO`L?M7zaSIWKMM3
+!i122 12
+l10
+L9 5
+VVO=2@N0`HFP1l06GQjgN^0
+!s100 Yk7UC2>`o<HP_WURJ]lOG3
+R6
+31
+R7
+!i10b 1
+R8
+R62
+R63
+!i113 1
+R11
+R12
+Eleftshift7
+Z64 w1650209586
+R2
+R3
+!i122 13
+R0
+Z65 8//Mac/Home/Desktop/Project4thMay/Shift7.vhd
+Z66 F//Mac/Home/Desktop/Project4thMay/Shift7.vhd
+l0
+L4 1
+V^J0c`[:dAi^02_Uh]7_I30
+!s100 ggd<CLJbInN1iblGUUO?92
+R6
+31
+R7
+!i10b 1
+R8
+Z67 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Shift7.vhd|
+Z68 !s107 //Mac/Home/Desktop/Project4thMay/Shift7.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 10 leftshift7 0 22 ^J0c`[:dAi^02_Uh]7_I30
+!i122 13
+l10
+L9 5
+Vgi`Vgzze5Ji8JPAeePo@=3
+!s100 ;d;Bo[1fZ^^QkXh^ACg:]3
+R6
+31
+R7
+!i10b 1
+R8
+R67
+R68
+!i113 1
+R11
+R12
+Emem
+Z69 w1651792786
+Z70 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 5
+R0
+Z71 8//Mac/Home/Desktop/Project4thMay/Memory.vhd
+Z72 F//Mac/Home/Desktop/Project4thMay/Memory.vhd
+l0
+L8 1
+V6C^eo1MeH[RdYD=T3z1ck3
+!s100 [3IOhoXiIH4fRY=H9iHmc1
+R6
+31
+R20
+!i10b 1
+R30
+Z73 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Memory.vhd|
+Z74 !s107 //Mac/Home/Desktop/Project4thMay/Memory.vhd|
+!i113 1
+R11
+R12
+Adesc
+R70
+R2
+R3
+DEx4 work 3 mem 0 22 6C^eo1MeH[RdYD=T3z1ck3
+!i122 5
+l22
+L17 20
+V?i<En5RU39X14DZmC10eD2
+!s100 JWR=0Zk`IFU;5ZcT?zJ`11
+R6
+31
+R20
+!i10b 1
+R30
+R73
+R74
+!i113 1
+R11
+R12
+Emux
+Z75 w1651785909
+R2
+R3
+!i122 6
+R0
+Z76 8//Mac/Home/Desktop/Project4thMay/Mux.vhd
+Z77 F//Mac/Home/Desktop/Project4thMay/Mux.vhd
+l0
+L4 1
+V]d_YMedkfHPidXjE6gB961
+!s100 Di2h=mO_MCKPFXkhMnZ>E0
+R6
+31
+R20
+!i10b 1
+R30
+Z78 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Mux.vhd|
+Z79 !s107 //Mac/Home/Desktop/Project4thMay/Mux.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 3 mux 0 22 ]d_YMedkfHPidXjE6gB961
+!i122 6
+l18
+R43
+V7K]mnm508VcSL>^z8ULM_3
+!s100 1]MaXB=^gWX1=Q]gE^VPb0
+R6
+31
+R20
+!i10b 1
+R30
+R78
+R79
+!i113 1
+R11
+R12
+Emux_2x1
+R44
+R2
+R3
+!i122 4
+R0
+R45
+R46
+l0
+L4 1
+VGPcbN>g_`<AhA[zLWVIRl3
+!s100 no4`lD;WXBk]l2CQ:nl2k2
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Abehaviour
+R2
+R3
+DEx4 work 7 mux_2x1 0 22 GPcbN>g_`<AhA[zLWVIRl3
+!i122 4
+l11
+L10 11
+VMSmkQLBX`Bhf5>gLQLMFX0
+!s100 JURUBHe8^nKP6L<f:3MD02
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Emux_4x1
+R44
+R2
+R3
+!i122 4
+R0
+R45
+R46
+l0
+L25 1
+V2`m3VTPS3]R6`0c]IQ2nO2
+!s100 3zNbQC74n=[l>R3=IQA`_2
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 7 mux_4x1 0 22 2`m3VTPS3]R6`0c]IQ2nO2
+!i122 4
+l35
+L34 15
+VHo:B<CSVjB5e[bED?`MSm3
+!s100 I0JgbV7gfN5C?N9_aY`712
+R6
+31
+R20
+!i10b 1
+R30
+R47
+R48
+!i113 1
+R11
+R12
+Enotg
+Z80 w1643562204
+R2
+R3
+!i122 20
+R0
+Z81 8//Mac/Home/Desktop/Project4thMay/notg.vhd
+Z82 F//Mac/Home/Desktop/Project4thMay/notg.vhd
+l0
+L4 1
+VE58M;B5^4iOz^]>e>OR@P1
+!s100 =X`[I>GXM:3:=>kI0SIC93
+R6
+31
+R13
+!i10b 1
+R24
+Z83 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/notg.vhd|
+!s107 //Mac/Home/Desktop/Project4thMay/notg.vhd|
+!i113 1
+R11
+R12
+Anota
+R2
+R3
+DEx4 work 4 notg 0 22 E58M;B5^4iOz^]>e>OR@P1
+!i122 20
+l9
+L8 4
+V@C3bTW44nBY[BZ?TF[SCS1
+!s100 Z3:kO94XQCieC@Rje4JT_2
+R6
+31
+R13
+!i10b 1
+R24
+R83
+Z84 !s107 //Mac/Home/Desktop/Project4thMay/notg.vhd|
+!i113 1
+R11
+R12
+Eorg
+Z85 w1643562246
+R2
+R3
+!i122 18
+R0
+Z86 8//Mac/Home/Desktop/Project4thMay/org.vhd
+Z87 F//Mac/Home/Desktop/Project4thMay/org.vhd
+l0
+L4 1
+VcPB_^2eHC`A6C9Y]Fekc81
+!s100 Cn[k<^CZlSJ1[^5imfblV1
+R6
+31
+R13
+!i10b 1
+R24
+Z88 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/org.vhd|
+Z89 !s107 //Mac/Home/Desktop/Project4thMay/org.vhd|
+!i113 1
+R11
+R12
+Aora
+R2
+R3
+DEx4 work 3 org 0 22 cPB_^2eHC`A6C9Y]Fekc81
+!i122 18
+l9
+L8 4
+V6_nXeOPA8bh24cVie5Q=[0
+!s100 ;bOLYVS:kkRO:Sn]5<jYj2
+R6
+31
+R13
+!i10b 1
+R24
+R88
+R89
+!i113 1
+R11
+R12
+Ereg
+Z90 w1650149362
+R2
+R3
+!i122 8
+R0
+Z91 8//Mac/Home/Desktop/Project4thMay/Register.vhd
+Z92 F//Mac/Home/Desktop/Project4thMay/Register.vhd
+l0
+L4 1
+VhCJR1YIXBV2bFU0F<<^Z03
+!s100 L4nCHFF`:n91TUA>PnbYC0
+R6
+31
+R7
+!i10b 1
+R8
+Z93 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/Register.vhd|
+Z94 !s107 //Mac/Home/Desktop/Project4thMay/Register.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 3 reg 0 22 hCJR1YIXBV2bFU0F<<^Z03
+!i122 8
+l11
+Z95 L10 9
+VRfgdldI120AOiZcIV?Don2
+!s100 ;Cf=QXWQR1><_J0PBOhK=2
+R6
+31
+R7
+!i10b 1
+R8
+R93
+R94
+!i113 1
+R11
+R12
+Erf
+Z96 w1651694532
+R2
+R3
+!i122 7
+R0
+Z97 8//Mac/Home/Desktop/Project4thMay/RegFile.vhd
+Z98 F//Mac/Home/Desktop/Project4thMay/RegFile.vhd
+l0
+L4 1
+V]kP0;^MG@5170;X9I;n_Z1
+!s100 l^m^deI_D[^6I_OP=Scjn0
+R6
+31
+R7
+!i10b 1
+R30
+Z99 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/RegFile.vhd|
+Z100 !s107 //Mac/Home/Desktop/Project4thMay/RegFile.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 2 rf 0 22 ]kP0;^MG@5170;X9I;n_Z1
+!i122 7
+l54
+L15 66
+VHH35M@PHJzE>QCCW`OC>D1
+!s100 hcP6C7k3AZ67ZRRcQ7Z2D3
+R6
+31
+R7
+!i10b 1
+R30
+R99
+R100
+!i113 1
+R11
+R12
+Erisc
+Z101 w1651794079
+R70
+R2
+R3
+!i122 9
+R0
+Z102 8//Mac/Home/Desktop/Project4thMay/RISC.vhd
+Z103 F//Mac/Home/Desktop/Project4thMay/RISC.vhd
+l0
+L6 1
+V3244`V7=JLM;d04XHKh9@3
+!s100 geGh]^[7AK:Tk1BG8:Z=z2
+R6
+31
+R7
+!i10b 1
+R8
+Z104 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/RISC.vhd|
+Z105 !s107 //Mac/Home/Desktop/Project4thMay/RISC.vhd|
+!i113 1
+R11
+R12
+Aarc
+R70
+R2
+R3
+DEx4 work 4 risc 0 22 3244`V7=JLM;d04XHKh9@3
+!i122 9
+l61
+L13 57
+VDFlSXWTIEj2a6Y_m[o;kR2
+!s100 Z0J^K[]oj<mF:OQDeif=N2
+R6
+31
+R7
+!i10b 1
+R8
+R104
+R105
+!i113 1
+R11
+R12
+Ese10
+Z106 w1650199078
+R2
+R3
+!i122 11
+R0
+Z107 8//Mac/Home/Desktop/Project4thMay/se10.vhd
+Z108 F//Mac/Home/Desktop/Project4thMay/se10.vhd
+l0
+L4 1
+V]05J:@eJ4jM11bFHP^<Rf3
+!s100 I`0;Xc8`4YYU<9Pd1kbX<3
+R6
+31
+R7
+!i10b 1
+R8
+Z109 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/se10.vhd|
+Z110 !s107 //Mac/Home/Desktop/Project4thMay/se10.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 4 se10 0 22 ]05J:@eJ4jM11bFHP^<Rf3
+!i122 11
+l10
+L9 14
+VhW6@_2H@zzic?S@HafYlR2
+!s100 X6VB[dUdNUQOUj?G3<49Y0
+R6
+31
+R7
+!i10b 1
+R8
+R109
+R110
+!i113 1
+R11
+R12
+Ese7
+Z111 w1650199058
+R2
+R3
+!i122 10
+R0
+Z112 8//Mac/Home/Desktop/Project4thMay/se7.vhd
+Z113 F//Mac/Home/Desktop/Project4thMay/se7.vhd
+l0
+L4 1
+VKfQS@Z9O_oEQhY`bmkm700
+!s100 d];E?;Imm]UM7VXIJgQE33
+R6
+31
+R7
+!i10b 1
+R8
+Z114 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/se7.vhd|
+Z115 !s107 //Mac/Home/Desktop/Project4thMay/se7.vhd|
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 3 se7 0 22 KfQS@Z9O_oEQhY`bmkm700
+!i122 10
+l10
+L9 11
+VWadK3a=IXlnf^SQNV^L0F2
+!s100 Eh7fg5lG6@adf1OZEOW@]2
+R6
+31
+R7
+!i10b 1
+R8
+R114
+R115
+!i113 1
+R11
+R12
+Etemp
+R33
+R2
+R3
+!i122 2
+R0
+R34
+R35
+l0
+L4 1
+Vm:e]o9kAO=kYi9ho8G?RL1
+!s100 M?1SD^<Of`dz6ETn3h_;33
+R6
+31
+R20
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R11
+R12
+Adesc
+R2
+R3
+DEx4 work 4 temp 0 22 m:e]o9kAO=kYi9ho8G?RL1
+!i122 2
+l11
+R95
+Vg?]Um_:XAN:@`^=P86niT0
+!s100 ]FZQO_Kkg<DSmjCbEROV[1
+R6
+31
+R20
+!i10b 1
+R30
+R36
+R37
+!i113 1
+R11
+R12
+Exorg
+Z116 w1643562372
+R2
+R3
+!i122 19
+R0
+Z117 8//Mac/Home/Desktop/Project4thMay/xorg.vhd
+Z118 F//Mac/Home/Desktop/Project4thMay/xorg.vhd
+l0
+L5 1
+VjA;D2LWe2SO7E>9R=f`FW2
+!s100 jJCY0<6BhWi0h=zjYNV=83
+R6
+31
+R13
+!i10b 1
+R24
+Z119 !s90 -reportprogress|300|-93|-work|work|//Mac/Home/Desktop/Project4thMay/xorg.vhd|
+Z120 !s107 //Mac/Home/Desktop/Project4thMay/xorg.vhd|
+!i113 1
+R11
+R12
+Axora
+R2
+R3
+DEx4 work 4 xorg 0 22 jA;D2LWe2SO7E>9R=f`FW2
+!i122 19
+l25
+L9 33
+VGT4nD[UUIi4]H:z7ThzCe3
+!s100 L=C2k49MMg=NeJgO4feXe0
+R6
+31
+R13
+!i10b 1
+R24
+R119
+R120
+!i113 1
+R11
+R12
